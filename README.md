@@ -1,4 +1,4 @@
-# Di-Battista-et-al-2023-JNI-Whole-blood-stimulation-
+# Di-Battista-et-al-2023-JNI-Whole-blood-stimulation
 
 This repsository holds the code and data* found in the manuscript 'Whole blood stimulation provides preliminary evidence of altered immune function following SRC'.
 
