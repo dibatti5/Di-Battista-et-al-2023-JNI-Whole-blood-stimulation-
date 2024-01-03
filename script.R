@@ -1029,7 +1029,7 @@ par(mfrow=c(2,4))
 #males no concussion history
 dens(x=post_plot_df$src_m_n[post_plot_df$stim=='lps'],ylim = c(0,1.9),xlim=c(-2,2),
      lwd = 3,col = 2, xlab="",
-     font.lab=2, cex.lab = 0.9, main = 'Males: No Conch Hx.',
+     font.lab=2, cex.lab = 0.9, main = 'Males: No Conc Hx.',
      frame = FALSE)
 dens(post_plot_df$hlth_m_n[post_plot_df$stim=='lps'],lwd = 3,col = 4,add = TRUE)
 dens(post_stip_prior$src_m_n,lwd = 1,lty = 6,col = 'gray40', add = TRUE)
@@ -1047,7 +1047,7 @@ text(-2,1.5,'A',cex = 0.9,font = 2)
 #males concussion history
 dens(x=post_plot_df$src_m_y[post_plot_df$stim=='lps'],ylim = c(0,1.9),xlim=c(-2,2),
      lwd = 3,col = 2,xlab = "", ylab = "",
-     font.lab=2, cex.lab = 0.8, main = 'Males: Conch Hx.',
+     font.lab=2, cex.lab = 0.8, main = 'Males: Conc Hx.',
      frame = FALSE)
 dens(post_plot_df$hlth_m_y[post_plot_df$stim=='lps'],lwd = 3,col = 4,add = TRUE)
 dens(post_stip_prior$src_m_y,lwd = 1,lty = 6,col = 'gray40', add = TRUE)
@@ -1056,7 +1056,7 @@ text(-2,1.5,'B',cex = 0.9,font = 2)
 
 #females no concussion history
 dens(x=post_plot_df$src_f_n[post_plot_df$stim=='lps'],ylim = c(0,1.9),xlim=c(-2,2),
-     lwd = 3,col = 2,main = 'Females: No Conch Hx.',
+     lwd = 3,col = 2,main = 'Females: No Conc Hx.',
      font.lab=2, cex.lab = 0.8,xlab = "", ylab = "",
      frame = FALSE)
 dens(post_plot_df$hlth_f_n[post_plot_df$stim=='lps'],lwd = 3,col = 4,add = TRUE)
@@ -1068,7 +1068,7 @@ mtext('LPS Reactivity Score',side = 3, line = -29, outer = TRUE,
 
 #females concussion history
 dens(x=post_plot_df$src_f_y[post_plot_df$stim=='lps'],ylim = c(0,1.9),xlim=c(-2,2),
-     lwd = 3,col = 2,main = 'Females: Conch Hx.',
+     lwd = 3,col = 2,main = 'Females: Conc Hx.',
      font.lab=2, cex.lab = 0.8,xlab = "", ylab = "",
      frame = FALSE)
 dens(post_plot_df$hlth_f_y[post_plot_df$stim=='lps'],lwd = 3,col = 4,add = TRUE)
@@ -1136,7 +1136,7 @@ par(mfrow=c(2,4))
 #males no concussion history
 dens(x=post_plot_df$src_m_n[post_plot_df$stim=='r848'],ylim = c(0,1.9),xlim=c(-2,2),
      lwd = 3,col = 3, xlab="",
-     font.lab=2, cex.lab = 0.9, main = 'Males: No Conch Hx.',
+     font.lab=2, cex.lab = 0.9, main = 'Males: No Conc Hx.',
      frame = FALSE)
 dens(post_plot_df$hlth_m_n[post_plot_df$stim=='r848'],lwd = 3,col = 4,add = TRUE)
 dens(post_stip_prior$src_m_n,lwd = 1,lty = 6,col = 'gray40', add = TRUE)
@@ -1151,7 +1151,7 @@ text(-2,1.5,'A',cex = 0.9,font = 2)
 #males concussion history
 dens(x=post_plot_df$src_m_y[post_plot_df$stim=='r848'],ylim = c(0,1.9),xlim=c(-2,2),
      lwd = 3,col = 3,xlab = "", ylab = "",
-     font.lab=2, cex.lab = 0.8, main = 'Males: Conch Hx.',
+     font.lab=2, cex.lab = 0.8, main = 'Males: Conc Hx.',
      frame = FALSE)
 dens(post_plot_df$hlth_m_y[post_plot_df$stim=='r848'],lwd = 3,col=4,add = TRUE)
 dens(post_stip_prior$src_m_y,lwd = 1,lty = 6,col = 'gray40', add = TRUE)
@@ -1160,7 +1160,7 @@ text(-2,1.5,'B',cex = 0.9,font = 2)
 
 #females no concussion history
 dens(x=post_plot_df$src_f_n[post_plot_df$stim=='r848'],ylim = c(0,1.9),xlim=c(-2,2),
-     lwd = 3,col = 3,main = 'Females: No Conch Hx.',
+     lwd = 3,col = 3,main = 'Females: No Conc Hx.',
      font.lab=2, cex.lab = 0.8,xlab = "", ylab = "",
      frame = FALSE)
 dens(post_plot_df$hlth_f_n[post_plot_df$stim=='r848'],lwd = 3,col = 4,add = TRUE)
@@ -1172,7 +1172,7 @@ mtext('R848 Reactivity Score',side = 3, line = -29, outer = TRUE,
 
 #females concussion history
 dens(x=post_plot_df$src_f_y[post_plot_df$stim=='r848'],ylim = c(0,1.9),xlim=c(-2,2),
-     lwd = 3,col = 3,main = 'Females: Conch Hx.',
+     lwd = 3,col = 3,main = 'Females: Conc Hx.',
      font.lab=2, cex.lab = 0.8,xlab = "", ylab = "",
      frame = FALSE)
 dens(post_plot_df$hlth_f_y[post_plot_df$stim=='r848'],lwd = 3,col = 4,add = TRUE)
